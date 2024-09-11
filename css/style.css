@@ -15,9 +15,7 @@ header {
 
 }
 
-header,
-main,
-footer {
+header{
     padding: 0px 30px;
 }
 
@@ -57,7 +55,20 @@ footer {
     justify-content: start;
 }
 
+.jc-center{
+    justify-content: center;
+}
 /* #endregion FLEX*/
+
+.relative{
+    position: relative;
+}
+
+.absolute{
+    position: absolute;
+}
+
+
 
 /* #region UTILITY */
 
@@ -143,7 +154,7 @@ footer {
     background-color: aquamarine;
     width: 100%;
     height: 600px;
-    padding-top: 3.5rem;
+
 }
 
 
@@ -168,19 +179,51 @@ footer {
 .debug .col-8 {
     background-color: rgb(200, 220, 20);
     height: 95%;
-    margin-bottom: -38px;
+    
 }
+
+
+
+/* #endregion DEBUG*/
 
 #start:hover {
     background-color: #4083f0;
     ;
 }
 
-/* #endregion DEBUG*/
-
 h1 {
     font-size: 80px;
-    text-align: center;
     padding-bottom: 25px;
+    padding-top: 70px;
+}
 
+.col-4{
+    line-height: 1.5rem;
+   
+
+}
+
+.col-8{
+    margin-bottom: -75px;
+
+}
+
+.jumbotron{
+    background-color: #b4d0e7;
+}
+
+#trial{
+    background-color: #0061ff;
+    color: white;
+    top: 500px;
+    padding: 10px 15px;
+}
+
+#trial:hover {
+    background-color: #4083f0;
+    ;
+}
+
+#dismise{
+    top: 570px;
 }
