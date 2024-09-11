@@ -59,6 +59,10 @@ header {
     justify-content: center;
 }
 
+.wrap {
+    flex-wrap: wrap;
+}
+
 /* #endregion FLEX*/
 
 .relative {
@@ -107,17 +111,30 @@ header {
     margin: auto;
 }
 
-
-.row {
-    width: 100%;
+.container-sm {
+    width: 50%;
+    margin: auto;
 }
+
 
 .col-4 {
     width: calc((100% / 12) * 4);
+    line-height: 1.5rem;
 }
 
 .col-8 {
     width: calc((100% / 12) * 8);
+    margin-bottom: -75px;
+}
+
+.col-12 {
+    width: 120%;
+    margin: 50px -10px;
+
+}
+
+.row {
+    width: 100%;
 }
 
 /* #endregion UTILITY */
@@ -166,13 +183,7 @@ header {
     background-color: brown;
 }
 
-.debug .container-sm {
-    width: 40%;
-    background-color: brown;
 
-    margin: auto;
-
-}
 
 .debug .row {
     height: 60%;
@@ -182,7 +193,7 @@ header {
 
 .debug .col-4 {
     background-color: crimson;
-    height: 220px;
+
     margin: 10px;
 }
 
@@ -192,11 +203,34 @@ header {
 
 }
 
+
+.debug .col-12 {
+    background-color: darkgrey;
+    height: 200px;
+
+}
+
+
 .debug #plans {
     background-color: rgb(208, 127, 255);
     width: 100%;
-    height: 600px;
-    padding-top: 180px;
+
+    
+}
+
+.debug .container-sm {
+
+    background-color: brown;
+}
+
+.debug #plans .col-4 {
+    background-color: rgb(200, 220, 20);
+}
+
+.debug #plans .row {
+    height: 60%;
+    background-color: rgb(255, 0, 170);
+
 }
 
 /* #endregion DEBUG*/
@@ -212,20 +246,12 @@ h1 {
     padding-top: 70px;
 }
 
-.col-4 {
-    line-height: 1.5rem;
-}
-
-.col-8 {
-    margin-bottom: -75px;
-
-}
-
 .jumbotron {
     background-color: #b4d0e7;
 }
 
-#trial {
+#trial,
+.trials30 {
     background-color: #0061ff;
     color: white;
     top: 500px;
@@ -240,4 +266,97 @@ h1 {
 
 #dismise {
     margin-top: 30px;
+}
+
+h2 {
+    padding-bottom: 5rem;
+    ;
+}
+
+.offer {
+    padding: 20px;
+    border: 1px solid darkgray;
+    height: 1000px;
+    
+}
+
+.offer-large {
+    padding: 20px;
+    border: 1px solid darkgray;
+ 
+
+    
+    
+}
+
+.card {
+    text-align: center;
+    padding: 10px;
+    border: 1px solid darkgray;
+    
+}
+
+#plans .col-4 {
+    margin: 5px -10px;
+}
+
+#plans{
+    padding-top: 180px;
+}
+
+.trials30{
+    margin: 10px 30px;
+}
+
+.buy{
+    margin-top: 20px;
+    margin-bottom: 90px;
+}
+
+.cadence {
+    margin-bottom: 70px;
+    margin-top: 20px;
+    color: darkgray
+}
+
+.price{
+    margin-top: 30px;
+    font-weight: 700;
+}
+
+.space{
+    margin: 20px 0;
+}
+
+.points-title{
+    margin: 20px 0;
+}
+.fa-check{
+    color: #0061ff;
+}
+
+.function{
+    margin-bottom: 5rem;
+}
+
+.point{
+    margin: 20px 0;
+}
+
+.office{
+    
+    background-color: #0061ff;
+    color: white;
+    padding: 10px 15px;
+    float: right; 
+}
+
+.team{
+    width: 100%;
+    
+}
+
+.team-des{
+    margin-top: 30px;
+    width: 50%;
 }
