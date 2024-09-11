@@ -15,7 +15,7 @@ header {
 
 }
 
-header{
+header {
     padding: 0px 30px;
 }
 
@@ -55,16 +55,17 @@ header{
     justify-content: start;
 }
 
-.jc-center{
+.jc-center {
     justify-content: center;
 }
+
 /* #endregion FLEX*/
 
-.relative{
+.relative {
     position: relative;
 }
 
-.absolute{
+.absolute {
     position: absolute;
 }
 
@@ -107,7 +108,9 @@ header{
 }
 
 
-.row {}
+.row {
+    width: 100%;
+}
 
 .col-4 {
     width: calc((100% / 12) * 4);
@@ -161,28 +164,40 @@ header{
 .debug .container {
     height: 100%;
     background-color: brown;
+}
 
+.debug .container-sm {
+    width: 40%;
+    background-color: brown;
+
+    margin: auto;
 
 }
 
 .debug .row {
     height: 60%;
     background-color: chartreuse;
+    width: ;
 }
 
 .debug .col-4 {
     background-color: crimson;
-    height: 80%;
+    height: 220px;
     margin: 10px;
 }
 
 .debug .col-8 {
     background-color: rgb(200, 220, 20);
     height: 95%;
-    
+
 }
 
-
+.debug #plans {
+    background-color: rgb(208, 127, 255);
+    width: 100%;
+    height: 600px;
+    padding-top: 180px;
+}
 
 /* #endregion DEBUG*/
 
@@ -197,33 +212,32 @@ h1 {
     padding-top: 70px;
 }
 
-.col-4{
+.col-4 {
     line-height: 1.5rem;
-   
-
 }
 
-.col-8{
+.col-8 {
     margin-bottom: -75px;
 
 }
 
-.jumbotron{
+.jumbotron {
     background-color: #b4d0e7;
 }
 
-#trial{
+#trial {
     background-color: #0061ff;
     color: white;
     top: 500px;
+    margin-top: 20px;
     padding: 10px 15px;
+    display: inline-block;
 }
 
 #trial:hover {
     background-color: #4083f0;
-    ;
 }
 
-#dismise{
-    top: 570px;
+#dismise {
+    margin-top: 30px;
 }
