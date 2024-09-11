@@ -12,10 +12,12 @@ img {
 
 header {
     height: 80px;
-    
+
 }
 
-header,main,footer{
+header,
+main,
+footer {
     padding: 0px 30px;
 }
 
@@ -31,6 +33,13 @@ header,main,footer{
     align-items: center;
 }
 
+.ai-start {
+    align-items: start;
+}
+
+.ai-end {
+    align-items: end;
+}
 
 .s-between {
     justify-content: space-between;
@@ -40,24 +49,62 @@ header,main,footer{
     justify-content: space-around;
 }
 
-.jc-end{
+.jc-end {
     justify-content: end;
 }
 
-.jc-start{
+.jc-start {
     justify-content: start;
 }
 
 /* #endregion FLEX*/
 
 /* #region UTILITY */
-.logo {}
 
-.left_menu {}
 
-.right_menu {}
+.left_menu {
+    width: 40%;
 
-.call_action {}
+    &>a {
+        padding-left: 30px;
+        color: black;
+        text-decoration: none;
+    }
+}
+
+.right_menu {
+    width: 40%;
+
+
+    &>a {
+        padding-right: 30px;
+        text-decoration: none;
+        color: black;
+    }
+
+    #start {
+        background-color: #0061ff;
+        padding: 0.5rem 1rem;
+        color: white;
+
+    }
+}
+
+.container {
+    width: 60%;
+    margin: auto;
+}
+
+
+.row {}
+
+.col-4 {
+    width: calc((100% / 12) * 4);
+}
+
+.col-8 {
+    width: calc((100% / 12) * 8);
+}
 
 /* #endregion UTILITY */
 
@@ -88,42 +135,52 @@ header,main,footer{
 
 }
 
-.debug .call_action {
+
+
+
+
+.debug .jumbotron {
+    background-color: aquamarine;
+    width: 100%;
+    height: 600px;
+    padding-top: 3.5rem;
+}
+
+
+.debug .container {
+    height: 100%;
     background-color: brown;
+
+
+}
+
+.debug .row {
+    height: 60%;
+    background-color: chartreuse;
+}
+
+.debug .col-4 {
+    background-color: crimson;
     height: 80%;
-    width: 10%;
+    margin: 10px;
+}
+
+.debug .col-8 {
+    background-color: rgb(200, 220, 20);
+    height: 95%;
+    margin-bottom: -38px;
+}
+
+#start:hover {
+    background-color: #4083f0;
+    ;
 }
 
 /* #endregion DEBUG*/
 
-.left_menu {
-    width: 40%;
+h1 {
+    font-size: 80px;
+    text-align: center;
+    padding-bottom: 25px;
 
-    &>a {
-        padding-left: 30px;
-        color: black;
-        text-decoration: none;
-    }
-}
-
-.right_menu {
-    width: 40%;
-
-
-    &>a {
-        padding-right: 30px;
-        text-decoration: none;
-        color: black;
-    }
-
-    #start{
-        background-color: #0061ff;
-        padding: 0.5rem 1rem;
-        color: white;
-        
-    }
-}
-
-#start:hover{
-    background-color: #4083f0;;
 }
