@@ -5,4 +5,121 @@
     box-sizing: border-box;
 }
 
-/* #endregion COMMON*/
+img {
+    max-width: 100%;
+}
+
+header {
+    height: 50px;
+    padding: 0 0px;
+
+}
+
+
+/* #endregion COMMON */
+
+/* #region FLEX */
+.d-flex {
+    display: flex;
+}
+
+
+.ai-center {
+    align-items: center;
+}
+
+
+.s-between {
+    justify-content: space-between;
+}
+
+.s-around {
+    justify-content: space-around;
+}
+
+.jc-end{
+    justify-content: end;
+}
+
+.jc-start{
+    justify-content: start;
+}
+
+/* #endregion FLEX*/
+
+/* #region UTILITY */
+.logo {}
+
+.left_menu {}
+
+.right_menu {}
+
+.call_action {}
+
+/* #endregion UTILITY */
+
+
+
+/* #region DEBUG */
+.debug * {
+    border: 1px dashed;
+}
+
+.debug header {
+    background-color: blue;
+
+}
+
+.debug .logo {
+    background-color: brown;
+    height: 80%;
+    width: 10%;
+}
+
+.debug .left_menu {
+    background-color: rgb(118, 165, 42);
+    height: 80%;
+    width: 39%;
+
+}
+
+
+.debug .right_menu {
+    background-color: rgb(118, 165, 42);
+    height: 80%;
+    width: 39%;
+
+}
+
+.debug .call_action {
+    background-color: brown;
+    height: 80%;
+    width: 10%;
+}
+
+/* #endregion DEBUG*/
+
+.left_menu {
+    width: 40%;
+
+    &>a {
+        padding-left: 20px;
+    }
+}
+
+.right_menu {
+    width: 40%;
+
+
+    &>a {
+        padding-right: 20px;
+    }
+}
+
+.call_action {
+    
+    &>a {
+      padding-left:  5px;
+    }
+
+}
