@@ -14,14 +14,15 @@ header {
     position: fixed;
     width: 100%;
     background-color: white;
-   
+
 
 }
 
-.app_header { 
+.app_header {
     height: 80px;
-    
-   
+    box-shadow: 0px 0px 10px 0px rgb(61, 61, 61);
+    padding: 0 20px;
+
 }
 
 h2 {
@@ -118,7 +119,7 @@ h2 {
     width: 60%;
     margin: auto;
 
-    .client{
+    .client {
         margin-bottom: -75px;
     }
 }
@@ -137,7 +138,7 @@ h2 {
 
 .col-8 {
     width: calc((100% / 12) * 8);
-   
+
 }
 
 .col-12 {
@@ -162,11 +163,11 @@ h2 {
 
 /* #endregion DEBUG*/
 
-section{
-   margin-bottom: 100px;
+section {
+    margin-bottom: 100px;
 }
 
-h2{
+h2 {
     font-size: 40px;
 }
 
@@ -182,12 +183,13 @@ h1 {
 
 }
 
-.button{
+.button {
     background-color: #0061ff;
     color: white;
     top: 500px;
     padding: 10px 15px;
     display: inline-block;
+    text-decoration: none;
 }
 
 .button:hover {
@@ -205,24 +207,24 @@ h1 {
     border: 1px solid darkgray;
     height: 1000px;
     line-height: 2rem;
-  
+
 
 }
 
 .offer-large {
     padding: 20px;
     border: 1px solid darkgray;
- 
 
-    
-    
+
+
+
 }
 
 .card {
     text-align: center;
     padding: 10px;
     border: 1px solid darkgray;
-    
+
 }
 
 #plans .col-4 {
@@ -236,43 +238,44 @@ h1 {
     color: darkgray
 }
 
-.price{
- 
+.price {
+
     font-weight: 700;
 }
 
 
 
-.points-title{
+.points-title {
     margin: 20px 0;
 }
-.fa-check{
+
+.fa-check {
     color: #0061ff;
 }
 
 
 
-.team{
+.team {
     width: 100%;
-    
+
 }
 
-.team-des{
+.team-des {
     margin-top: 30px;
     width: 50%;
 }
 
-.offer{
+.offer {
 
-   &>.button{ 
-    width: 99%;
-    text-align: center;
-    margin: 20px 0px;
+    &>.button {
+        width: 99%;
+        text-align: center;
+        margin: 20px 0px;
+    }
+
 }
 
-}
-
-.button2{
+.button2 {
     background-color: #f6f8fa;
     color: rgb(10, 10, 10);
     top: 500px;
@@ -280,6 +283,7 @@ h1 {
     display: inline-block;
     border: 1px solid darkgray;
     margin: 30px 0;
+    text-decoration: none;
 }
 
 .button2:hover {
@@ -287,10 +291,31 @@ h1 {
     color: rgb(255, 255, 255);
 }
 
-.partner{
+.partner {
     padding: 30px;
 
-    &>h3{
+    &>h3 {
         padding-bottom: 20px;
+    }
+}
+
+
+.buisness {
+
+    .container-sm {
+
+
+        .row {
+
+            .col-4 {
+                padding: 20px;
+
+                h3 {
+                    padding: 20px 0;
+                }
+
+            }
+        }
+
     }
 }
