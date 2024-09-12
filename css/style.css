@@ -31,19 +31,27 @@ h2 {
     padding-bottom: 5rem;
 }
 
+footer * {
+    text-decoration: none;
+    color: white;
 
-#app-footer{
+
+}
+
+#app-footer {
     line-height: 2.5rem;
     height: 500px;
     background-color: #000000;
     color: white;
     font-size: 14px;
     padding-top: 5rem;
-    
-   h4{
-    font-size: 20px;
-   }
+
+
+    h4 {
+        font-size: 20px;
+    }
 }
+
 /* #endregion COMMON */
 
 /* #region FLEX */
@@ -205,10 +213,10 @@ h1 {
 
 
 
-    #trial{
-        margin-top: 2rem;
+#trial {
+    margin-top: 2rem;
 
-    }
+}
 
 
 .button {
@@ -336,9 +344,10 @@ h1 {
         .row {
 
             margin: -18px;
+
             .col-4 {
                 padding: 20px;
-                
+
 
                 h3 {
                     padding: 20px 0;
@@ -351,23 +360,23 @@ h1 {
 }
 
 
-.brands{
-    .col-4{
-      
-    
-        
-        img{
+.brands {
+    .col-4 {
 
-           
-            margin:-4px;
+
+
+        img {
+
+
+            margin: -4px;
             filter: invert(1);
             height: 320px;
-            
+
             padding: 50px;
             color: white;
         }
 
-        #design{
+        #design {
             background-color: #5d2c64;
             aspect-ratio: 1;
             border-top: 15px solid #381a3b;
@@ -376,76 +385,76 @@ h1 {
             border-right: 19px solid #381a3b;
         }
 
-        #asu{
+        #asu {
 
             background-color: #9df7d4;
             aspect-ratio: 1;
-        
+
         }
 
         #uof {
             background-color: #fe6c31;
             padding: 143px 80px;
             aspect-ratio: 1;
-            
+
         }
 
-        #topps{
+        #topps {
 
             background-color: #01e3e2;
             aspect-ratio: 1;
         }
 
-        
+
     }
 
-    #design2{
-        background-color:#0a0a0a ;
+    #design2 {
+        background-color: #0a0a0a;
         filter: invert(1);
         aspect-ratio: 1;
         margin-top: -5px;
-        
-      
+
+
     }
 
 
-    #wbr{
+    #wbr {
         aspect-ratio: 1;
-        background-color:#2affdf ;
+        background-color: #2affdf;
     }
 
-    #hc{
+    #hc {
         aspect-ratio: 1;
         background-color: #4b2f19;
     }
 
-    #lp{
+    #lp {
         aspect-ratio: 1;
-        
-        background-color:#f2db7e ;
+
+        background-color: #f2db7e;
     }
 
-    #cc{
+    #cc {
         aspect-ratio: 1;
-        background-color:#0026cf;
+        background-color: #0026cf;
     }
 }
 
-.bottom_brands{
+.bottom_brands {
     background-color: #b4d0e7;
     height: 400px;
     width: 100%;
     margin-top: -5px;
     z-index: 2;
 
-    .container-sm{
-        h2{
-            color:#61082b
+    .container-sm {
+        h2 {
+            color: #61082b
         }
     }
 }
 
-.questions{
+.questions {
 
     padding: 20px 0;
     border-top: 1px solid black;
@@ -453,29 +462,29 @@ h1 {
 }
 
 
-.answers{
+.answers {
     display: none;
 }
 
-#question1:hover{
+#question1:hover {
 
-    #answer1{
+    #answer1 {
         display: block;
     }
 
 }
 
-#question2:hover{
+#question2:hover {
 
-    #answer2{
+    #answer2 {
         display: block;
     }
 
 }
 
-#question3:hover{
+#question3:hover {
 
-    #answer3{
+    #answer3 {
         display: block;
     }
 
