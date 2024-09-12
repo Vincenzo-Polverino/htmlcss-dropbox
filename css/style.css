@@ -425,6 +425,12 @@ h1 {
     background-color: #b4d0e7;
     height: 400px;
     width: 100%;
+
+    .container-sm{
+        h2{
+            color:#61082b
+        }
+    }
 }
 
 .questions{
