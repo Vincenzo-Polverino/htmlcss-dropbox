@@ -349,61 +349,75 @@ h1 {
         
         img{
 
-            margin:-4px;
            
+            margin:-4px;
+            filter: invert(1);
             height: 320px;
-            aspect-ratio: 1/1;
+            
             padding: 50px;
             color: white;
         }
 
         #design{
-            background-color: #a2d39b;
+            background-color: #5d2c64;
+            aspect-ratio: 1;
+            border-top: 15px solid #381a3b;
+            border-bottom: 15px solid #381a3b;
+            border-left: 19px solid #381a3b;
+            border-right: 19px solid #381a3b;
         }
 
         #asu{
 
-            background-color: #61082b;
+            background-color: #9df7d4;
+            aspect-ratio: 1;
         
         }
 
         #uof {
-            background-color: #0093ce;
+            background-color: #fe6c31;
+            padding: 143px 80px;
+            aspect-ratio: 1;
             
         }
 
         #topps{
 
-            background-color: #ff1c1c;
+            background-color: #01e3e2;
+            aspect-ratio: 1;
         }
 
         
     }
 
     #design2{
-        background-color:#f5f5f5 ;
+        background-color:#0a0a0a ;
+        filter: invert(1);
+        aspect-ratio: 1;
+        
       
     }
 
 
     #wbr{
-        
-        background-color:#d5001f ;
+        aspect-ratio: 1;
+        background-color:#2affdf ;
     }
 
     #hc{
-        
-        background-color: #b4d0e7;
+        aspect-ratio: 1;
+        background-color: #4b2f19;
     }
 
     #lp{
+        aspect-ratio: 1;
         
-        background-color:#0d2481 ;
+        background-color:#f2db7e ;
     }
 
     #cc{
-        
-        background-color:#ffd830;
+        aspect-ratio: 1;
+        background-color:#0026cf;
     }
 }
 
