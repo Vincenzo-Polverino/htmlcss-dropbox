@@ -393,3 +393,39 @@ h1 {
     height: 400px;
     width: 100%;
 }
+
+.questions{
+
+    padding: 20px 0;
+    border-top: 1px solid black;
+    border-bottom: 1px solid black;
+}
+
+
+.answers{
+    display: none;
+}
+
+#question1:hover{
+
+    #answer1{
+        display: block;
+    }
+
+}
+
+#question2:hover{
+
+    #answer2{
+        display: block;
+    }
+
+}
+
+#question3:hover{
+
+    #answer3{
+        display: block;
+    }
+
+}
