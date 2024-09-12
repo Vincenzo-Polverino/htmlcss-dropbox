@@ -11,12 +11,21 @@ img {
 }
 
 header {
-    height: 80px;
+    position: fixed;
+    width: 100%;
+    background-color: white;
+   
 
 }
 
-header {
-    padding: 0px 30px;
+.app_header { 
+    height: 80px;
+    
+   
+}
+
+h2 {
+    padding-bottom: 5rem;
 }
 
 /* #endregion COMMON */
@@ -99,7 +108,6 @@ header {
     }
 
     #start {
-        background-color: #0061ff;
         padding: 0.5rem 1rem;
         color: white;
 
@@ -109,7 +117,12 @@ header {
 .container {
     width: 60%;
     margin: auto;
+
+    .client{
+        margin-bottom: -75px;
+    }
 }
+
 
 .container-sm {
     width: 50%;
@@ -124,7 +137,7 @@ header {
 
 .col-8 {
     width: calc((100% / 12) * 8);
-    margin-bottom: -75px;
+   
 }
 
 .col-12 {
@@ -142,102 +155,19 @@ header {
 
 
 /* #region DEBUG */
+
 .debug * {
     border: 1px dashed;
 }
 
-.debug header {
-    background-color: blue;
-
-}
-
-.debug .left_menu {
-    background-color: rgb(118, 165, 42);
-    height: 80%;
-    width: 39%;
-
-}
-
-
-.debug .right_menu {
-    background-color: rgb(118, 165, 42);
-    height: 80%;
-    width: 39%;
-
-}
-
-
-
-
-
-.debug .jumbotron {
-    background-color: aquamarine;
-    width: 100%;
-    height: 600px;
-
-}
-
-
-.debug .container {
-    height: 100%;
-    background-color: brown;
-}
-
-
-
-.debug .row {
-    height: 60%;
-    background-color: chartreuse;
-    width: ;
-}
-
-.debug .col-4 {
-    background-color: crimson;
-
-    margin: 10px;
-}
-
-.debug .col-8 {
-    background-color: rgb(200, 220, 20);
-    height: 95%;
-
-}
-
-
-.debug .col-12 {
-    background-color: darkgrey;
-    height: 200px;
-
-}
-
-
-.debug #plans {
-    background-color: rgb(208, 127, 255);
-    width: 100%;
-
-    
-}
-
-.debug .container-sm {
-
-    background-color: brown;
-}
-
-.debug #plans .col-4 {
-    background-color: rgb(200, 220, 20);
-}
-
-.debug #plans .row {
-    height: 60%;
-    background-color: rgb(255, 0, 170);
-
-}
-
 /* #endregion DEBUG*/
 
-#start:hover {
-    background-color: #4083f0;
-    ;
+section{
+   margin-bottom: 100px;
+}
+
+h2{
+    font-size: 40px;
 }
 
 h1 {
@@ -248,19 +178,19 @@ h1 {
 
 .jumbotron {
     background-color: #b4d0e7;
+    padding-top: 100px;
+
 }
 
-#trial,
-.trials30 {
+.button{
     background-color: #0061ff;
     color: white;
     top: 500px;
-    margin-top: 20px;
     padding: 10px 15px;
     display: inline-block;
 }
 
-#trial:hover {
+.button:hover {
     background-color: #4083f0;
 }
 
@@ -268,16 +198,15 @@ h1 {
     margin-top: 30px;
 }
 
-h2 {
-    padding-bottom: 5rem;
-    ;
-}
+
 
 .offer {
     padding: 20px;
     border: 1px solid darkgray;
     height: 1000px;
-    
+    line-height: 2rem;
+  
+
 }
 
 .offer-large {
@@ -300,18 +229,6 @@ h2 {
     margin: 5px -10px;
 }
 
-#plans{
-    padding-top: 180px;
-}
-
-.trials30{
-    margin: 10px 30px;
-}
-
-.buy{
-    margin-top: 20px;
-    margin-bottom: 90px;
-}
 
 .cadence {
     margin-bottom: 70px;
@@ -320,13 +237,11 @@ h2 {
 }
 
 .price{
-    margin-top: 30px;
+ 
     font-weight: 700;
 }
 
-.space{
-    margin: 20px 0;
-}
+
 
 .points-title{
     margin: 20px 0;
@@ -335,21 +250,7 @@ h2 {
     color: #0061ff;
 }
 
-.function{
-    margin-bottom: 5rem;
-}
 
-.point{
-    margin: 20px 0;
-}
-
-.office{
-    
-    background-color: #0061ff;
-    color: white;
-    padding: 10px 15px;
-    float: right; 
-}
 
 .team{
     width: 100%;
@@ -359,4 +260,37 @@ h2 {
 .team-des{
     margin-top: 30px;
     width: 50%;
+}
+
+.offer{
+
+   &>.button{ 
+    width: 99%;
+    text-align: center;
+    margin: 20px 0px;
+}
+
+}
+
+.button2{
+    background-color: #f6f8fa;
+    color: rgb(10, 10, 10);
+    top: 500px;
+    padding: 10px 15px;
+    display: inline-block;
+    border: 1px solid darkgray;
+    margin: 30px 0;
+}
+
+.button2:hover {
+    background-color: #000000;
+    color: rgb(255, 255, 255);
+}
+
+.partner{
+    padding: 30px;
+
+    &>h3{
+        padding-bottom: 20px;
+    }
 }
