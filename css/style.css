@@ -403,6 +403,7 @@ h1 {
         background-color:#0a0a0a ;
         filter: invert(1);
         aspect-ratio: 1;
+        margin-top: -5px;
         
       
     }
@@ -434,6 +435,8 @@ h1 {
     background-color: #b4d0e7;
     height: 400px;
     width: 100%;
+    margin-top: -5px;
+    z-index: 2;
 
     .container-sm{
         h2{
