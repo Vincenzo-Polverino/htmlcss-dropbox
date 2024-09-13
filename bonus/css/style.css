@@ -573,12 +573,13 @@ h1 {
     .offer,
     .offer-large {
         width: 100%;
+
     }
 
     .col-4,
     .col-12 {
         width: calc((100% / 12) * 12);
-        
+
     }
 
 
@@ -586,17 +587,17 @@ h1 {
         flex-direction: column;
         justify-content: space-between;
         height: 50%;
-      
-        
 
 
-        .col-5{
+
+
+        .col-5 {
 
             width: calc((100% / 12) * 2.2);
             display: flex;
             justify-content: space-between;
             flex-direction: column;
-            
+
 
         }
 
@@ -623,5 +624,27 @@ h1 {
         line-height: 1rem;
         padding: 5px 0;
     }
+
+    .team {
+        position: relative;
+        padding-bottom: 50px;
+
+        .team-des {
+
+            width: 100%;
+        }
+
+        .button {
+            position: absolute;
+            top: 140px;
+        }
+    }
+
+
+
+    .offer{
+        height: 800px;
+    }
+
 
 }
