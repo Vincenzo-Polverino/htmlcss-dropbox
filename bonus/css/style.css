@@ -516,8 +516,8 @@ h1 {
         justify-content: start;
 
         #logo {
-          
-            
+
+
             height: 16px;
         }
 
@@ -526,13 +526,14 @@ h1 {
 
 
 
-        .left_menu, .right_menu {
+        .left_menu,
+        .right_menu {
 
             flex-direction: column;
-            align-items:start;
+            align-items: start;
             gap: 5px;
 
-            #start{
+            #start {
                 position: absolute;
                 top: 25px;
                 right: 5px;
@@ -541,7 +542,16 @@ h1 {
 
         }
 
-        
+
+    }
+
+
+
+
+    .jumbotron {
+
+        padding-top: 50px;
+        padding-bottom: 50px;
     }
 
     .container-sm {
@@ -568,10 +578,50 @@ h1 {
     .col-4,
     .col-12 {
         width: calc((100% / 12) * 12);
-        ;
+        
     }
 
 
+    #app-footer {
+        flex-direction: column;
+        justify-content: space-between;
+        height: 50%;
+      
+        
 
+
+        .col-5{
+
+            width: calc((100% / 12) * 2.2);
+            display: flex;
+            justify-content: space-between;
+            flex-direction: column;
+            
+
+        }
+
+
+        h4 {
+
+            font-size: 16px;
+            padding-bottom: 5px;
+        }
+
+
+
+        .container {
+            gap: 5px;
+            margin: 0;
+            width: 100%;
+            justify-content: center;
+            padding: 10px;
+
+
+        }
+
+        font-size: 12px;
+        line-height: 1rem;
+        padding: 5px 0;
+    }
 
 }
