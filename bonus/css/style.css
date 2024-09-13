@@ -241,7 +241,7 @@ h1 {
 .offer {
     padding: 20px;
     border: 1px solid darkgray;
-    min-height: 1000px;
+    height: 1000px;
     line-height: 2rem;
 
 
@@ -489,3 +489,4 @@ h1 {
     }
 
 }
+ 
